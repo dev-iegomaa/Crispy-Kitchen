@@ -1,0 +1,130 @@
+/* Start Navigation Bar Style */
+
+nav .container ul li:last-of-type a {
+    color: var(--primary-color);
+}
+
+/* End Navigation Bar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background: url('../../images/header/rod-long-I79Pgmhmy5M-unsplash.jpg') center;
+}
+
+/* End Banner Style */
+
+/* Start Form Style */
+
+#form {
+    background-color: var(--white-color);
+    padding: var(--section-padding);
+}
+
+#form .container {
+    flex-wrap: wrap;
+}
+
+#form h2 {
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+#form form {
+    width: 48%;
+    flex-wrap: wrap;
+}
+
+#form form div {
+    width: 48%;
+}
+
+#form label {
+    color: var(--p-color);
+    font-size: 17px;
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#form input,
+#form textarea {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: var(--font-weight-normal);
+    color: #212529;
+    background-color: var(--white-color);
+}
+
+#form textarea {
+    height: 150px;
+    width: 100%;
+}
+
+#form input[type="submit"] {
+    width: 40%;
+    margin-left: auto;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: var(--transition-duration);
+}
+
+#form input[type="submit"]:hover {
+    background-color: var(--primary-color);
+}
+
+#form section {
+    width: 40%;
+    margin-top: 3rem;
+}
+
+#form section article {
+    margin-bottom: 1.5rem;
+}
+
+#form section article h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#form section article p {
+    display: inline-block;
+    margin-right: 20px;
+    color: var(--p-color);
+}
+
+#form section article span {
+    display: inline-block;
+    color: var(--p-color);
+}
+
+/* End Form Style */
+
+/* Start Location Style */
+
+#location {
+    background-color: var(--section-bg-color);
+    padding: var(--section-padding);
+}
+
+#location h2 {
+    margin-bottom: 1.5rem;
+}
+
+#location address {
+    margin-bottom: 1rem;
+}
+
+#location iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    outline: 0;
+}
+
+/* End Location Style */

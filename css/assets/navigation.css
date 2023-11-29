@@ -1,0 +1,49 @@
+/* Start Navigation Bar Style */
+
+nav {
+    background-color: var(--white-color);
+    padding: 20px 0;
+}
+
+nav .container > a {
+    color: var(--dark-color);
+    font-size: 26px;
+    font-weight: var(--font-weight-semibold);
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+}
+
+nav .container > a:hover {
+    color: var(--primary-color);
+}
+
+nav .container ul li:hover a {
+    color: var(--primary-color);
+}
+
+nav .container ul li a {
+    color: var(--p-color);
+}
+
+nav .container ul li:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+nav .container button {
+    padding: 10px 35px;
+    background-color: #dc3545;
+    color: var(--white-color);
+    transition-property: background-color;
+    transition-duration: var(--transition-duration);
+    border-radius: var(--border-radius);
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    -ms-border-radius: var(--border-radius);
+    -o-border-radius: var(--border-radius);
+}
+
+nav .container button:hover {
+    background-color: #bb2d3b;
+}
+
+/* End Navigation Bar Style */

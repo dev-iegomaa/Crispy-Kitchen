@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRISPY KITCHIEN | MENU</title>
+    <!-- ===== Start Font ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- ===== End Font ===== -->
+
+    <!-- ===== Start Icon =====  -->
+    <link rel="stylesheet" href="css/plugins/font_awesome/all.min.css">
+    <!-- ===== End Icon =====  -->
+
+    <!-- ===== Start Css Page ===== -->
+    <link rel="stylesheet" href="css/assets/master.css" type="text/css">
+    <link rel="stylesheet" href="css/assets/classes.css" type="text/css">
+    <link rel="stylesheet" href="css/assets/navigation.css" type="text/css">
+    <link rel="stylesheet" href="css/assets/banner.css" type="text/css">
+    <link rel="stylesheet" href="css/assets/component.css" type="text/css">
+    <link rel="stylesheet" href="css/pages/reservation.css" type="text/css">
+    <link rel="stylesheet" href="css/pages/menu.css" type="text/css">
+    <link rel="stylesheet" href="css/assets/footer.css" type="text/css">
+    <!-- ===== End Css Page ===== -->
+</head>
+<body>
+    <!-- Start Reservation Section -->
+    <section id="reservation" class="center-flex">
+        <div class="container">
+            <h2 class="text-capitalize">reserve a table</h2>
+            <button type="button" id="exit" class="text-capitalize">x</button>
+            <form action="" method="post" class="d-flex justify-content-between">
+                <div>
+                    <label for="name" class="text-capitalize">full name</label>
+                    <input type="text" name="name" id="name" placeholder="your name" minlength="10" maxlength="30" required>
+                </div>
+                <div>
+                    <label for="email" class="text-capitalize">email</label>
+                    <input type="email" id="email" name="email" placeholder="your email" minlength="10" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="phone" class="text-capitalize">phone number</label>
+                    <input type="text" name="phone" id="phone" placeholder="123-456-7890" minlength="10" maxlength="15" required>
+                </div>
+                <div>
+                    <label for="number" class="text-capitalize">number of persons</label>
+                    <input type="text" name="number" id="number" placeholder="12 persons" minlength="1" maxlength="2" required>
+                </div>
+                <div>
+                    <label for="date" class="text-capitalize">date</label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                <div>
+                    <label for="time" class="text-capitalize">time</label>
+                    <select name="time" id="time" required>
+                        <option value="5:00 PM">5:00 PM</option>
+                        <option value="6:00 PM">6:00 PM</option>
+                        <option value="7:00 PM">7:00 PM</option>
+                        <option value="8:00 PM">8:00 PM</option>
+                        <option value="9:00 PM">9:00 PM</option>
+                    </select>
+                </div>
+                <label for="message" class="text-capitalize">message</label>
+                <textarea name="message" id="message" placeholder="your message" required></textarea>
+                <input type="submit" value="submit request">
+            </form>
+        </div>
+    </section>
+    <!-- End Reservation Section -->
+
+    <!-- Start Navigation Bar Section -->
+    <nav>
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="index.html" class="text-capitalize">crispy kitchen</a>
+            <ul class="d-flex justify-content-between">
+                <li class="text-capitalize"><a href="index.html">home</a></li>
+                <li class="text-capitalize"><a href="story.html">story</a></li>
+                <li class="text-capitalize"><a href="menu.html">menu</a></li>
+                <li class="text-capitalize"><a href="update.html">our updates</a></li>
+                <li class="text-capitalize"><a href="contact.html">contact</a></li>
+            </ul>
+            <button type="button" id="reserve" class="text-capitalize">reservation</button>
+        </div>
+    </nav>
+    <!-- End Navigation Bar Section -->
+
+    <!-- Start Banner Section -->
+    <section id="banner">
+        <div class="container center-flex">
+            <section>
+                <h1 class="text-capitalize">our menus</h1>
+                <p class="text-capitalize align-center">perfect for all breakfast, lunch and dinner</p>
+            </section>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- End Banner Section -->
+
+    <!-- Start Breakfast Section -->
+    <section id="breakfast">
+        <div class="container">
+            <h2 class="text-capitalize">breakfast menu</h2>
+            <section class="d-flex justify-content-between">
+                <figure class="card">
+                    <div>
+                        <img src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">breakfast</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">morning fresh</h3>
+                            <span class="center-flex">$12.50</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>4.3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>102 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <div>
+                        <img src="images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">breakfast</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">burger set</h3>
+                            <span class="center-flex">$20.50</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>4.3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>102 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <div>
+                        <img src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">breakfast</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">steak</h3>
+                            <span class="center-flex">$34.20</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>64 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <div>
+                        <img src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">breakfast</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">morning fresh</h3>
+                            <span class="center-flex">$12.50</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>4.3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>102 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <div>
+                        <img src="images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">breakfast</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">tooplate soup</h3>
+                            <span class="center-flex">$24.15</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>102 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <div>
+                        <img src="images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">breakfast</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">healthy soup</h3>
+                            <span class="center-flex">$34.15</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>85 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+            </section>
+        </div>
+    </section>
+    <!-- End Breakfast Section -->
+
+    <!-- Start Lunch Section -->
+    <section id="lunch">
+        <div class="container">
+            <h2 class="text-capitalize">lunch menu</h2>
+            <section class="d-flex justify-content-between">
+                <figure class="card">
+                    <div>
+                        <img src="images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">lunch</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">tooplate soup</h3>
+                            <span class="center-flex">$24.50</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>50 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <div>
+                        <img src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">lunch</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">steak</h3>
+                            <span class="center-flex">$34.20</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>64 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <div>
+                        <img src="images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">lunch</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">healthy soup</h3>
+                            <span class="center-flex">$34.15</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>85 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+            </section>
+        </div>
+    </section>
+    <!-- End Lunch Section -->
+
+    <!-- Start Dinner Section -->
+    <section id="dinner">
+        <div class="container">
+            <h2 class="text-capitalize">dinner menu</h2>
+            <section class="d-flex justify-content-between">
+                <figure class="card">
+                    <div>
+                        <img src="images/lunch/louis-hansel-cH5IPjaAYyo-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">dinner</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">premium steak</h3>
+                            <span class="center-flex">$45</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>86 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+                <figure class="card">
+                    <div>
+                        <img src="images/lunch/louis-hansel-rheOvfxOlOA-unsplash.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="text-capitalize">dinner</span>
+                    </div>
+                    <figcaption>
+                        <header class="d-flex align-items-center">
+                            <h3 class="text-capitalize">seafood set</h3>
+                            <span class="center-flex">$86</span>
+                        </header>
+                        <footer class="d-flex align-items-center">
+                            <span>3/5</span>
+                            <ul class="d-flex align-items-center">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                            <p>44 Reviews</p>
+                        </footer>
+                    </figcaption>
+                </figure>
+            </section>
+        </div>
+    </section>
+    <!-- End Dinner Section -->
+
+    <!-- Start Footer Section -->
+    <footer id="footer">
+        <div class="container">
+            <h4 class="text-capitalize">crispy kitchen</h4>
+            <section class="d-flex justify-content-between">
+                <article>
+                    <h5 class="text-capitalize">location</h5>
+                    <address class="text-capitalize">121 einstein loop n, bronx, ny 10475, united states</address>
+                    <button type="button" class="text-capitalize">directions</button>
+                </article>
+                <article>
+                    <h5 class="text-capitalize">opening hours</h5>
+                    <ul>
+                        <li class="text-capitalize">monday - friday</li>
+                        <li>10:00 AM - 08:00 PM</li>
+                        <li class="text-capitalize">tel: 010-02-0340</li>
+                    </ul>
+                </article>
+                <article>
+                    <h5 class="text-capitalize">social</h5>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <p class="text-capitalize">copyright &amp; 2023 crispy kitchen co., ltd.design: <em>ibrahim esam</em></p>
+                </article>
+            </section>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+    
+    <script src="js/reservation.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+/* Start Footer Style */
+
+#footer {
+    padding: var(--section-padding);
+    background: rgba(0 0 0 / 75%) url('../../images/footer/daan-evers-tKN1WXrzQ3s-unsplash.jpg') center center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: #aaa;
+}
+
+#footer h4 {
+    color: var(--white-color);
+    font-weight: var(--font-weight-medium);
+    font-size: 28px;
+    margin-bottom: 3rem;
+}
+
+#footer section article {
+    width: 32%;
+}
+
+#footer section article h5 {
+    color: var(--white-color);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 1.5rem;
+    font-size: 22px;
+}
+
+#footer section article address {
+    margin-bottom: 1.5rem;
+}
+
+#footer section article button {
+    background-color: #212529;
+    color: inherit;
+    padding: 10px 35px;
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+}
+
+#footer section article button:hover {
+    color: var(--white-color);
+}
+
+#footer section article ul li {
+    margin-bottom: .5rem;
+}
+
+#footer section article i:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+#footer section article i {
+    font-size: 17px;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+}
+
+#footer section article i:hover {
+    color: var(--white-color);
+}
+
+#footer section article p {
+    margin-top: 30px;
+    margin-bottom: 1rem;
+}
+
+#footer section article p em {
+    color: var(--white-color);
+}
+
+/* End Footer Style */

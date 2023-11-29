@@ -1,0 +1,101 @@
+/* Start Master Style */
+
+:root {
+    --white-color: #fff;
+    --dark-color: #000;
+    --primary-color: #f44749;
+    --secondary-color: #f3af24;
+    --third-color: #0DCAF0;
+    --p-color: #717275;
+    --section-bg-color: #F9F9F9;
+    --section-padding: 8rem 0;
+    --border-radius: .25rem;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --transition-duration: .5s;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: var(--font-weight-semibold);
+}
+
+p {
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body,
+input,
+textarea,
+button,
+select,
+::placeholder {
+    font-family: 'Shantell Sans', cursive;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    border: 1px solid #ced4da;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--dark-color);
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+input[type="submit"],
+button[type="button"] {
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+::selection {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+::placeholder {
+    font-weight: var(--font-weight-light);
+}
+
+html::-webkit-scrollbar {
+    width: 3px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 3px;
+}
+
+/* End Master Style */

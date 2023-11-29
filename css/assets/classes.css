@@ -1,0 +1,50 @@
+/* Start Classes Style */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0 0 0 / 35%);
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* End Classes Style */

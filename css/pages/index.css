@@ -1,0 +1,211 @@
+/* Start Navigation Bar Style */
+
+nav .container ul li:first-of-type a {
+    color: var(--primary-color);
+}
+
+/* End Navigation Bar Style */
+
+/* Start Banner Style */
+
+#banner {
+    height: 90vh;
+    position: relative;
+}
+
+#banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#banner .container {
+    position: absolute;
+    height: 100%;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#banner .container section {
+    width: 40%;
+}
+
+#banner .container section h1 {
+    font-size: 70px;
+    margin-bottom: 1.5rem;
+    color: var(--white-color);
+}
+
+#banner .container section span {
+    font-size: 22px;
+    color: var(--white-color);
+}
+
+#banner .container section ul {
+    display: inline-flex;
+}
+
+#banner .container section ul li {
+    color: var(--secondary-color);
+}
+
+#banner .container section p {
+    color: var(--white-color);
+    margin-top: 5px;
+}
+
+#banner .container section p b {
+    color: var(--white-color);
+}
+
+#banner .container > div {
+    width: 56%;
+    position: relative;
+}
+
+#banner .container > div .overlay {
+    opacity: 1;
+    background-image: linear-gradient(to top, var(--dark-color), transparent 30%);
+}
+
+#banner .container > div img {
+    display: block;
+}
+
+#banner .container > div article {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+    z-index: 3;
+}
+
+#banner .container > div article header {
+    margin-bottom: 15px;
+}
+
+#banner .container > div article header h3 {
+    margin-right: 2rem;
+    font-size: 30px;
+    color: var(--white-color);
+}
+
+#banner .container > div article header span {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    background-color: var(--white-color);
+    color: var(--secondary-color);
+    width: 84px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+#banner .container > div article footer span {
+    font-size: 22px;
+    margin-right: .7rem;
+    color: var(--white-color);
+}
+
+#banner .container > div article footer ul li {
+    color: var(--secondary-color);
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: none;
+}
+
+.owl-carousel .owl-nav {
+    width: fit-content;
+    margin-top: 0;
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    width: 60px;
+    margin: 0;
+    height: 60px;
+    text-align: center;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    font-size: 30px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: var(--secondary-color);
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    background-color: var(--primary-color);
+}
+
+/* End Banner Style */
+
+/* Start Special Menu Style */
+
+#special-menu {
+    padding: var(--section-padding);
+    background-color: var(--section-bg-color);
+}
+
+#special-menu h2 {
+    margin-bottom: 3rem;
+}
+
+#special-menu section {
+    flex-wrap: wrap;
+}
+
+/* End Special Menu Style */
+
+/* Start Image Style */
+
+#image {
+    padding: var(--section-padding);
+    background: fixed url('../../images/section/alex-haney-CAhjZmVk5H4-unsplash.jpg');
+    background-size: cover;
+    height: 500px;
+}
+
+/* End Image Style */
+
+/* Start News Style */
+
+#news {
+    padding: var(--section-padding);
+    background-color: var(--section-bg-color);
+}
+
+#news h2 {
+    margin-bottom: 3rem;
+}
+
+#news section {
+    flex-wrap: wrap;
+}
+
+#news section figure figcaption span:first-of-type {
+    color: var(--white-color);
+}
+
+#news section figure:nth-of-type(3) figcaption span:first-of-type,
+#news section figure:last-of-type figcaption span:first-of-type {
+    background-color: #0DCAF0;
+}
+
+/* End News Style */

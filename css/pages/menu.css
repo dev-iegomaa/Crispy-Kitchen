@@ -1,0 +1,46 @@
+/* Start Navigation Bar Style */
+
+nav .container ul li:nth-of-type(3) a {
+    color: var(--primary-color);
+}
+
+/* End Navigation Bar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background: url('../../images/header/luisa-brimble-aFzg83dvnAI-unsplash.jpg') center;
+}
+
+/* End Banner Style */
+
+/* Start Special Menu Style */
+
+#breakfast,
+#dinner {
+    padding: var(--section-padding);
+    background-color: var(--section-bg-color);
+}
+
+#lunch {
+    padding: var(--section-padding);
+    background-color: var(--white-color);
+}
+
+#breakfast h2,
+#lunch h2,
+#dinner h2 {
+    margin-bottom: 3rem;
+}
+
+#breakfast section,
+#lunch section,
+#dinner section {
+    flex-wrap: wrap;
+}
+
+#dinner figure.card {
+    width: 49%;
+}
+
+/* End Special Menu Style */

@@ -1,0 +1,93 @@
+/* Start Navigation Bar Style */
+
+nav .container ul li:nth-of-type(2) a {
+    color: var(--primary-color);
+}
+
+/* End Navigation Bar Style */
+
+/* Start Banner Style */
+
+#banner {
+    background: url('../../images/header/briana-tozour-V_Nkf1E-vYA-unsplash.jpg') center;
+}
+
+/* End Banner Style */
+
+/* Start Special Menu Style */
+
+#team-member {
+    background-color: var(--section-bg-color);
+    padding: var(--section-padding);
+}
+
+#team-member h2 {
+    margin-bottom: 3rem;
+}
+
+#team-member section figure {
+    width: 32%;
+}
+
+#team-member section figure h3 {
+    font-size: 28px;
+    margin-top: 0.5rem;
+}
+
+#team-member section figure p {
+    color: var(--p-color);
+}
+
+/* End Special Menu Style */
+
+/* Start Newsletter Style */
+
+#newsletter {
+    padding: var(--section-padding);
+}
+
+#newsletter img {
+    width: 40%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#newsletter form h3 {
+    font-size: 28px;
+}
+
+#newsletter form p:first-of-type {
+    color: var(--p-color);
+    margin-bottom: 1rem;
+}
+
+#newsletter form input[type="email"] {
+    color: #212529;
+    background-color: var(--white-color);
+}
+
+#newsletter form input {
+    display: block;
+    width: 100%;
+    padding: 14px 10px;
+    font-size: 1rem;
+    font-weight: var(--font-weight-normal);
+}
+
+#newsletter form input[type="submit"] {
+    margin: 20px 0 1rem;
+    color: var(--white-color);
+    background-color: var(--dark-color);
+    transition-property: background-color;
+    transition-duration: var(--transition-duration);
+    cursor: pointer;
+}
+
+#newsletter form input[type="submit"]:hover {
+    background-color: var(--primary-color);
+}
+
+/* End Newsletter Style */
